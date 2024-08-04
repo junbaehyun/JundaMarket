@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  font-family: Poppins, "Nato Sans KR", sans-serif;
+  
+}
+
+.wrapper {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+body {
+  font-family: Poppins, 'Noto Sans KR', sans-serif;
+  margin: 0;
+  word-break: keep-all;
+  }
+
+
+img {
+  width: 500px;
+  vertical-align: 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/* 버튼 */
+
+
+
+
+
+/* 첫번째 글씨체 */
+.first-line {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #3692FF;
+}
+
+/* 두번째 글씨체 */
+.second-line {
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 700;
+  color: #374151;
+}
+
+
+
+/* 세번째 글씨체 */
+.third-line {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #374151;
+}
+
+
+/* 헤더 스타일 */
+.header {
+  text-align:center;
+  margin-inline: 200px;
+  background-color: #fff;
+  justify-content: space-between;
+  display: flex;  
+  
+  
+  
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+/* 헤더 로그인 버튼*/
+.login-Button {
+  background-color: #2196f3; 
+  color: #fff; 
+  padding: 15px 20px;
+  border-radius: 10px; 
+  font-size: 18px; 
+  text-align: center; 
+  width: 100px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px
+  
+}
+
+.img-box {
+  width: 500px;
+}
+
+.img-box img {
+  display: block;
+}
+
+/*   일상의 모든 물건을 거래해 보아요    */
+.first-last-layout{
+  
+  background-color:  #CFE5FF; 
+  display: flex;
+  width: 100%;
+  height: 440px;
+  justify-content: center;
+  flex-direction: row;
+  align-items: end;
+
+}
+
+/* 구경하러가기 버튼*/
+.look-up-button{
+  background-color: #2196f3; 
+  color: #fff; 
+  border: none; 
+  padding: 15px 30px;
+  border-radius: 25px; 
+  font-size: 18px; 
+  cursor: pointer;
+  text-align: center; 
+  margin-bottom: 100px;
+
+}
+
+/* 두번째 네번째 섹션 레이아웃 */
+.second-fourth-layout{
+  background-color:  #ffffff; 
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 200px
+}
+
+/* 3번째 섹션 레이아웃 */
+.third-layout{
+  background-color:  #ffffff; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  height: 540px;
+}
+
+/* 풋터 스타일 */
+footer{
+  color:#ffffff;
+  justify-content:space-between;
+  display:flex;
+  background-color:  #000000;
+  
+}
+
+#footer1{
+  display: flex;
+  
+}
+
+#footer2{
+  display: flex;
+  
+}
+#footer3{
+  display: flex;
+ 
+}
